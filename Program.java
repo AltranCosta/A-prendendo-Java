@@ -5,7 +5,7 @@ public class Program  {
      public static void main(String[] args) {
          Locale.setDefault(Locale.US);
          Scanner sc = new Scanner(System.in);
-         System.out.println("Quantida de minutos gasto no mês: ");
+         System.out.println("Quantidade de minutos gasto no mês: ");
          int minuto = sc.nextInt();
 
          double conta = 50.0;
