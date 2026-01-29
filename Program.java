@@ -10,7 +10,7 @@ public class Program  {
 
          double conta = 50.0;
          if(minuto > 100){
-             conta = conta + (minuto - 100) * 2.0;
+             conta += (minuto - 100) * 2.0;// foi adicionado operador de atribuição +=
          }
 
          System.out.printf("Valor da Conta é : %.2f%n", conta);
